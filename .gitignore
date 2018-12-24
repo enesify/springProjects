@@ -3,4 +3,4 @@
 *.class
 *.log
 springDemoOne/bin/
-springDemoOne/target/classes/
+*/target/*
