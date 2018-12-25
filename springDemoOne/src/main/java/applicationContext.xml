@@ -25,6 +25,13 @@
 		<property name="rootLoggerLevel" value="FINE" />
 		<property name="printedLoggerLevel" value="FINE" />
 	</bean>
+	
+	<bean id="myCricketCoach" 
+		  class="com.enes.springdemo.CricketCoach">
+		  
+		  <!-- set up setter injection, then this calls setFortuneService method automatically-->
+		  <property name="fortuneService" ref="myFortuneService"/>
+	</bean>
 
 
 </beans>

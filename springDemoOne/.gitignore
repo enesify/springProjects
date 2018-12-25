@@ -4,3 +4,4 @@
 *.log
 springDemoOne/bin/
 */target/*
+/target/

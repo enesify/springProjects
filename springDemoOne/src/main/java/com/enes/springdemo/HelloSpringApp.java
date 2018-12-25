@@ -22,7 +22,7 @@ public class HelloSpringApp {
 		// let's call our new method for fortunes
 		System.out.println(theCoach.getDailyFortune());
 
-		if (LOGGER.isDebugEnabled()) {
+		/*if (LOGGER.isDebugEnabled()) {
 			LOGGER.debug("This is debug : " + " _enes");
 		}
 
@@ -38,16 +38,16 @@ public class HelloSpringApp {
 			divide();
 		} catch (Exception ex) {
 			LOGGER.error("Divide by zero !", ex);
-		}
+		}*/
 
 		// close the context
 		context.close();
 	}
 
-	private static void divide() {
+	/*private static void divide() {
 
 		int i = 10 / 0;
 
-	}
+	}*/
 
 }
